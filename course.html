@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()" ></i>
+            <ul>
+             <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+             <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+    </nav>
+<h1>Our Courses</h1>
+    
+    </section>
+    <!-----courses---->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Computer Science and It<br>Business and IT<br>Procurement<br>Business Management<br>Human Resource</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Veniam delectus, laborum odit quisquam debitis optio<br> saepe ipsa maxime id necessitatibus sapiente hic? <br>Sit ratione eveniet, doloremque sed nihil ex! Odio?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Veniam delectus, laborum odit quisquam debitis optio<br> saepe ipsa maxime id necessitatibus sapiente hic? <br>Sit ratione eveniet, doloremque sed nihil ex! Odio?</p>
+            </div>
+            <div class="course-col">
+                <h3>Postgraduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Veniam delectus, laborum odit quisquam debitis optio<br> saepe ipsa maxime id necessitatibus sapiente hic? <br>Sit ratione eveniet, doloremque sed nihil ex! Odio?</p>
+            </div>
+
+        </div>
+
+    </section>
+   <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Offering the best facilities for our students</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpg">
+                <h3>Most advanced library</h3>
+                <p>We offer a world class library with resources that improve our students knowledge</p>
+
+            </div>
+             <div class="facilities-col">
+                <img src="images/basketball.jpg">
+                <h3>The largest playgrounds</h3>
+                <p>Our campus offers a range of games like football,basketball ,swimming and handball to accommodate all students</p>
+
+            </div>
+             <div class="facilities-col">
+                <img src="images/cafetaria.jpg">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Our campus provides a wide variety of healthy and affordable food for all our students</p>
+
+            </div>
+
+        </div>
+
+    </section>
+   
+    <!-----Footer---->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>We are a world class university that ensures we produce the best student with knowledge<br>moral discipline and skills that are demanded in the market</p>
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-google"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Florence</p>
+    </section>
+
+    <!--------JavaScript for Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
